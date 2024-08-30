@@ -1,58 +1,46 @@
-# ExamenPractico
-Examen Final Practico Espinosa Vera Elias Mateo-Muñoz Bowen Eloy Enrique
+# Getting Started with Create React App
 
-# Gestión de Productos y Categorías
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Este proyecto es una aplicación web para la gestión de empleados, tareas y proyectos, construida con Node.js, Express, MySQL para el backend y React para el frontend. 
+## Available Scripts
 
-## Tecnologías Utilizadas
+In the project directory, you can run:
 
-- **Backend**: Node.js, Express, MySQL
-- **Frontend**: React, PrimeReact
-- **Herramientas de Desarrollo**: Axios, Nodemon
+### `npm start`
 
-  
-### Iniciar la api-rest
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
--  Ubicarse en el directorio de la api
-```bash
-cd project-management-api
-```
-- Instalar dependencias.
-```bash
-npm install
-```
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Ejecutar en modo desarrollo
-```bash
-npm run dev
-```
-- Alternativamente puede ejecutar:
-```bash
-npm start
-```
+### `npm test`
 
-* La API estará disponible en:
-  
-  `http://localhost:3001/api/projects`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  `http://localhost:3001/api/tasks`
-  
-  `http://localhost:3001/api/employees`
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-`Nota:` La API se conecta a MySQL. Modifica las credenciales en el archivo db.ts para configurar la conexión a la base de datos.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Iniciar la aplicación web
-- Ubicarse en el directorio
-```bash
-cd gestion-tareas
-```
-- Instalar dependencias.
-```bash
-npm install
-```
-- Ejecutar la aplicación
-```bash
-npm start
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
