@@ -1,5 +1,5 @@
 # ExamenPractico
-Examen Final Practico Espinosa-Muñoz
+Examen Final Practico Espinosa Vera Elias Mateo-Muñoz Bowen Eloy Enrique
 
 # Gestión de Productos y Categorías
 
