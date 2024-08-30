@@ -11,12 +11,6 @@ Este proyecto es una aplicación web para la gestión de empleados, tareas y pro
 - **Frontend**: React, PrimeReact
 - **Herramientas de Desarrollo**: Axios, Nodemon
 
-## Instalación
-
-- Clonar el repositorio
-```bash
-git clone https://github.com/sebgh0/CRUD-Productos.git
-```
   
 ### Iniciar la api-rest
 
